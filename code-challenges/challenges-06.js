@@ -38,7 +38,7 @@ const sumNums = (arr)=>{
     let sum = 0 ;
   for(let i =0 ; i<arr.length ; i++)
 
-if (typeof(arr[i]) === "Number")
+if (arr[i]/1=== arr[i])
   sum = sum + arr[i];
 
     // write your code here
