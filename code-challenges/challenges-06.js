@@ -38,10 +38,9 @@ const sumNums = (arr)=>{
     let sum = 0 ;
   for(let i =0 ; i<arr.length ; i++)
 
-if (arr[i]/1=== arr[i])
+if (arr[i]/1 === arr[i])
   sum = sum + arr[i];
 
-    // write your code here
     return sum;
 }
 // -------------------------------------------------------------------------------------------------------
@@ -57,10 +56,14 @@ if (arr[i]/1=== arr[i])
 // Output: ['Python','Ruby','JS','C#']
 
 const reverseArray = (arr)=>{
-    for (let i = arr.length-1 ; i>=0 ; i--){
-      return arr[i] ;
+    let revArr =[]
+    let count = 0
 
+    for (let i = arr.length-1 ; i>=0 ; i--){
+revArr[count] = arr[i];
+count++;
     }
+    return revArr;
     // write your code here
 }
 // -------------------------------------------------------------------------------------------------------
