@@ -16,8 +16,7 @@
 
 const recursionPattern = (int1, int2) => {
    var arr = [];
-    var a = int1;
-    var b = int2
+   
     function x (a , b ,arr){
         arr.push(a);
         if (a < 0){
